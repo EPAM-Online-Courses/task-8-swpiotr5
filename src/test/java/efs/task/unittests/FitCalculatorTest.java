@@ -45,7 +45,6 @@ class FitCalculatorTest {
         double height = 0.0;
 
         //when
-        boolean recommended = FitCalculator.isBMICorrect(weight, height);
 
         //then
         assertThrows(IllegalArgumentException.class, () -> FitCalculator.isBMICorrect(weight, height));
